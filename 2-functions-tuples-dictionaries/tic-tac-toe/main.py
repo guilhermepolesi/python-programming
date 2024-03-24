@@ -127,7 +127,7 @@ def insert_move_computer(board, move):
     board[row][column] = 'X'
 
 
-def computer_movie(board):
+def computer_move(board):
     move = None
     valid_move = False
     while not valid_move:
